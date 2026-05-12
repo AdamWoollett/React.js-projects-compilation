@@ -1,0 +1,135 @@
+.JobFormInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    border: solid 4px black;
+    background-color: slategrey;
+    width:50%;
+    padding: 20px;
+    position: relative;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100px;
+}
+
+.set-job-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Big-Div {
+    display: flex;
+    justify-content: center;
+}
+
+.bot-input{
+    margin-bottom: 2px;
+    font-size: medium;
+    border: 2px solid black;
+}
+
+.bot-input:focus{
+    background-color: yellow;
+}
+
+.form-details button{
+    background-color: aqua;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+    max-width: 100px;
+}
+
+.form-details button:hover{
+    background-color: yellow;
+    border:2px solid green;
+    border-radius:8px;
+    padding: 4px 8px 4px 8px;
+}
+
+.form-details button:active{
+    background-color: white;
+    border:2px solid green;
+    border-radius:8px;
+    padding: 4px 8px 4px 8px;
+}
+
+.job-status{
+    background-color: aqua;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+    max-width: 200px;
+}
+
+.job-status:hover{
+    background-color: yellow;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+    max-width: 100px;
+}
+
+.job-status:active{
+    background-color: white;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+    max-width: 100px;
+}
+
+.submit-data{
+    background-color: orangered;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+    width:100px;
+}
+
+.submit-data:hover{
+    background-color: orange;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+}
+
+.submit-data:active{
+    background-color: white;
+    border:2px solid green;
+    border-radius: 4px;
+    padding:4px 8px 4px 8px;
+}
+
+.successful-job-creation{
+    color: green;
+    background-color: lightgreen;
+    border: green solid 4px;
+    padding:6px 40px 6px 40px;
+}
+
+.Button-Disabled-Div{
+    position:absolute;
+    top:80%;
+    width:100px;
+    height:50px;
+    z-index: 250;
+}
+
+.Button-Enabled-Div{
+    position:absolute;
+    top:80%;
+    width:100px;
+    height:50px;
+    z-index: -250;
+}

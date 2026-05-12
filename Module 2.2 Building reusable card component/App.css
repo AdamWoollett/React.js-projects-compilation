@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  background-color: green;
+  padding-bottom: 20px;
+}
+
+.App .profilesDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.App caption{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+  margin:10px;
+}
+.App img{
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.App h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.App caption{
+  background-color: aquamarine;
+  border:solid 4px yellow;
+  border-radius: 8px;
+  margin:6px;
+}
+
+.App h3{
+  background-color: aquamarine;
+  border:solid 4px yellow;
+  border-radius: 8px;
+  margin:6px;
+}
+
+.App p{
+  background-color: aquamarine;
+  border:solid 4px yellow;
+  border-radius: 8px;
+  margin:6px;
+  font-weight: 1000;
+}
