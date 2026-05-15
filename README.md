@@ -1,3 +1,4 @@
 This respository contains a number of smaller projects I completed whilst learning React.js. They are each confined to their own folders.
 "Module 2.2 Building reusable card component" is a project where I create a reusable component that is used 3 times to display basic information about 3 different mobs from the game Minecraft.
-
+"Module 2.3 Variables" is a project where I tested out displaying variables of different types on a page. The String Variable line has a randomiser that chooses between 2 strings to display on page load.
+Number Variable displays a number, Array Variable displays an array. The 3 Object Variables each display a single object property from an object. "This is some more JSX" comes from a function defined outside the JSX section in the file. The list of fruits also comes from a function that maps out all the items in an array to be displayed.
